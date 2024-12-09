@@ -1,0 +1,8 @@
+config_scan : scan2
+    target : 100.110.26.162
+    ports : 0-443
+    arguments :
+    verbose_level : 5
+
+scan : scan2
+

@@ -1,0 +1,29 @@
+config_capture : capture1
+    interface : Ethernet
+    packets : 60
+    ipv4 : 100.110.26.162
+    json : False
+    ek : True
+
+config_capture : capture2
+    interface : Ethernet
+    packets : 60
+    ipv4 :
+    json : False
+    ek : True
+
+capture : capture1
+
+config_scan : scan1
+    target : 100.110.26.162
+    ports : 22,80
+    arguments :
+    verbose_level : 1
+
+config_scan : scan2
+    target : 100.110.26.162
+    ports : 0-443
+    arguments :
+    verbose_level : 5
+
+scan : scan2
