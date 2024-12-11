@@ -2,7 +2,7 @@
 
 ## Installation
 
-##### NetSpectre requirements 
+##### NetSpectre requirements {#netreqs}
 - python 3.9 or later version
 - wireshark
 - nmap
