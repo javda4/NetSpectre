@@ -1,7 +1,6 @@
 import pyshark
 import nmap
 import os
-import time
 
 if not os.path.exists("captures"):
     os.makedirs("captures")
