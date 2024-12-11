@@ -42,7 +42,7 @@ These keys can be found in [**Key List**](#key_list) that comprise of the 4 main
 - **verbose_levels** : an interger 1-5 the higher the value the more detail you will get in your output
 
 ### Code Structure
-`config_capture : <name_your_capture_configuration>
+```config_capture : <name_your_capture_configuration>
 
     interface : <name_of_interface>
 
@@ -54,7 +54,8 @@ These keys can be found in [**Key List**](#key_list) that comprise of the 4 main
     
     ek : <boolean>
 
-capture : <name_of_capture_configuration>`
+capture : <name_of_capture_configuration>
+```
 
 
 
