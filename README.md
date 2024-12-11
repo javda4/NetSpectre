@@ -69,4 +69,4 @@ Make sure to have a line of space in between [**Key List Tokens**](#key-list-tok
 
 
 ### How the Interpreter Works
-Runs through the program line by line when it comes aross a configuration token it parses the lines and establishes the parameters for that configuration and is stored to be called upon later by its proper reference token and value. When a **capture : <config_name>** is called, it runs a capture with the given parameters to the config **Value (config_name)** you assigned. Same for **scan : <config_name>**, it is called, then runs a scan with the parameters assigned to that configuration name.
+Runs through the program line by line when it comes aross a configuration token it parses the lines and establishes the parameters for that configuration and is stored to be called upon later by its proper reference token and value. When a **capture : <config_name>** is called, it runs a capture with the given parameters to the config **Value <config_name>** you assigned. Same for **scan : <config_name>**, it is called, then runs a scan with the parameters assigned to that configuration name.
