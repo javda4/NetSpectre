@@ -43,11 +43,17 @@ These keys can be found in [**Key List**](#key_list) that comprise of the 4 main
 
 ### Code Structure
 `config_capture : <name_your_capture_configuration>
+
     interface : <name_of_interface>
+
     packets : <num_of_packets>
+    
     ipv4 : <ipv4_address>
+    
     json : <boolean>
+    
     ek : <boolean>
+
 capture : <name_of_capture_configuration>`
 
 
