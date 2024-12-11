@@ -38,7 +38,17 @@ These keys can be found in [**Key List**](#key_list) that comprise of the 4 main
 #### Config_scan Parameter Keys
 - **target** : ip/s you want to scan on the network
 - **ports** : ports you want to check that status of on the ip/s set prior
-- **arguments** : you can give the scan extra arguments (**for higher level expertise**) found in [nmap arguments](https://nmap.org/book/man-briefoptions.html) (optional
-- **verbose_levels**
+- **arguments** : you can give the scan extra arguments (**for higher level expertise**) found in [nmap arguments](https://nmap.org/book/man-briefoptions.html) (optional)
+- **verbose_levels** : an interger 1-5 the higher the value the more detail you will get in your output
 
 ### Code Structure
+config_capture : <name_your_capture_configuration>
+    interface : <name_of_interface>
+    packets : <num_of_packets>
+    ipv4 : <ipv4_address>
+    
+
+
+
+
+
