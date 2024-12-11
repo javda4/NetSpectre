@@ -14,4 +14,5 @@ Once you have installed the necessities from [NetSpectre requirements](#netspect
 
 ##### Pip installations
 `pip install python-nmap`
+
 `pip install pyshark`
