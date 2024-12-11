@@ -16,3 +16,7 @@ Once you have installed the necessities from [NetSpectre requirements](#netspect
 `pip install python-nmap`
 
 `pip install pyshark`
+
+## Basics of the language
+This language is focused around simplicity and scalability. Think of it as python and yaml colliding. It is a parameter focused langauge.
+Meaning there are **Keys** and **Values**.
