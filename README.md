@@ -23,8 +23,10 @@ This language is focused around simplicity and scalability. Think of it as pytho
 These keys can be found in [**Key List**](#key-list-tokens) that comprise of the 4 main tokens: **config_capture**, **config_scan**, **capture**, and **scan**
 
 ### Key List (Tokens)
+#### Configuration Keys (Tokens)
 - **config_capture** 
 - **config_scan**
+#### Capture and Scan Keys (Tokens)
 - **capture**
 - **scan**
 
