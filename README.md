@@ -20,7 +20,7 @@ Once you have installed the necessities from [NetSpectre requirements](#netspect
 ## Basics of the language
 This language is focused around simplicity and scalability. Think of it as python and yaml colliding. It is a parameter focused langauge creating **configurations** and implementing them. Every line of code will have two elements **Keys** and **Values**. **Keys** are predefined identifers in the programming language and would require you to modify the interpreter itself inorder to change there value. **Values** are the values of the keys that you can set. 
 
-These keys can be found in [**Key List**](#key_list) that comprise of the 4 main tokens: **config_capture**, **config_scan**, **capture**, and **scan**
+These keys can be found in [**Key List**](#key_list_tokens) that comprise of the 4 main tokens: **config_capture**, **config_scan**, **capture**, and **scan**
 
 ### Key List (Tokens)
 - **config_capture** 
@@ -60,7 +60,7 @@ config_scan : <name_your_scan_configuration> //ex: hibbygibbyscan
 
 scan : <name_of_scan_configuration> //ex: hibbygibbyscan
 ```
-Make sure to have a line of space in between [**Key List Tokens**](
+Make sure to have a line of space in between [**Key List Tokens**](#key_list_tokens)
 
 
 
