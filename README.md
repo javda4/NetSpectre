@@ -22,7 +22,23 @@ This language is focused around simplicity and scalability. Think of it as pytho
 
 These keys can be found in [**Key List**](#key_list) that comprise of the 4 main tokens: **config_capture**, **config_scan**, **capture**, and **scan**
 
-### Key List
+### Key List (Tokens)
+- **config_capture** 
+- **config_scan**
+- **capture**
+- **scan**
 
+#### Config_capture Parameter Keys : explanation of value
+- **interface** : the name of the network interface
+- **packets** : the number of packets you want to capture
+- **ipv4** : the IPv4 address you want to scope your packet captures around (optional)
+- **json** : boolean value if you want output in json format (**ek and json can't both be set to TRUE**)
+- **ek** : boolean value if you want output in ek format (**ek and json can't both be set to TRUE**)
+
+#### Config_scan Parameter Keys
+- **target** : ip/s you want to scan on the network
+- **ports** : ports you want to check that status of on the ip/s set prior
+- **arguments** : you can give the scan extra arguments (**for higher level expertise**) found in [nmap arguments](https://nmap.org/book/man-briefoptions.html) (optional
+- **verbose_levels**
 
 ### Code Structure
