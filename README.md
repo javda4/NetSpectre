@@ -72,3 +72,19 @@ Make sure to have a line of space in between [**Key List Tokens**](#key-list-tok
 
 ### How the Interpreter Works
 Runs through the program line by line when it comes aross a configuration token it parses the lines and establishes the parameters for that configuration and is stored to be called upon later by its proper reference token and value. When a **capture : <config_name>** is called, it runs a capture with the given parameters to the config **Value <config_name>** you assigned. Same for **scan : <config_name>**, it is called, then runs a scan with the parameters assigned to that configuration name.
+
+### Future Modifications
+Make the interpreter accessible from anywhere on the OS
+```
+NetSpectre program.ns
+```
+
+Right now you have to place your program into the programs folder then modify one of the last lines in the interpreter to call to your program
+
+```
+interpreter.interpret_file("programs/program.ns")
+```
+
+Make calls to the configurations with the **capture :** and **scan :** tokens able to be written anywhere in the program by having the interpreter read through the entire program create the configurations then address the captures and scans.
+
+
