@@ -2,7 +2,7 @@
 
 ## Installation
 
-##### NetSpectre requirements
+#### NetSpectre requirements
 - [python](https://www.python.org/downloads/) 3.9 or later version
 - [wireshark](https://www.wireshark.org/download.html)
 - [nmap](https://nmap.org/download.html)
@@ -12,7 +12,7 @@ Ensure that you set wireshark and nmap to Path/bin depending on what OS you are 
 ## Setup Environment
 Once you have installed the necessities from [NetSpectre requirements](#netspectre-requirements) you can create your environment
 
-##### Pip installations
+#### Pip installations
 `pip install python-nmap`
 
 `pip install pyshark`
