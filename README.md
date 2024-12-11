@@ -3,9 +3,9 @@
 ## Installation
 
 ##### NetSpectre requirements
-- python 3.9 or later version
-- wireshark
-- nmap
+- [python](https://www.python.org/downloads/) 3.9 or later version
+- [wireshark](https://www.wireshark.org/download.html)
+- [nmap](https://nmap.org/download.html)
     
 Ensure that you set wireshark and nmap to Path/bin depending on what OS you are operating on.
 
