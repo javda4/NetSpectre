@@ -7,7 +7,7 @@
 - [wireshark](https://www.wireshark.org/download.html)
 - [nmap](https://nmap.org/download.html)
     
-Ensure that you set wireshark and nmap to Path/bin depending on what OS you are operating on.
+Ensure that you set wireshark and nmap to Path/bin depending on what OS you are operating on
 
 ## Setup Environment
 Once you have installed the necessities from [NetSpectre requirements](#netspectre-requirements) you can create your environment
