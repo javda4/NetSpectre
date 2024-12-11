@@ -60,10 +60,13 @@ config_scan : <name_your_scan_configuration> //ex: hibbygibbyscan
 
 scan : <name_of_scan_configuration> //ex: hibbygibbyscan
 ```
+Ensure that the configuration is created before it is called to
+
 Make sure to have a line of space in between [**Key List Tokens**](#key-list-tokens)
 
 ### Code Sample
 ![Program Sample](assets/NetSpectreProgram.jpg)
 
 
-
+### How the Interpreter Works
+Runs through the program line by line when it comes aross a configuration token it parses the lines and establishes the parameters for that configuration and is stored to be called upon later by its proper reference token and value. When a **capture : <config_name>** is called, it runs a caputre with the given parameters to the config **Value (config_name)** you assigned. Same for **scan : <config_name>**, it is called, then runs a scan with the parameters assigned to that configuration name.
